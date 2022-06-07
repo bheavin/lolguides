@@ -1,22 +1,118 @@
+@import 'meyer-reset.css';
 
+/* PAGE STRUCTURE */
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(55, 68, 80);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace
 }
-.title {
-    color: lightskyblue;
-    text-align: center;
-    font-size: 40px;
+inner-column {
+    display: block;
+    width: 75vw;
 }
-.flex-links-container {
+section {
     display: flex;
+    padding: 20px;
     justify-content: center;
-    align-items: center;
-    background: whitesmoke;
+    height: auto;
 }
-.flex-items {
-    display:flex;
-    width: 90px;
-    height: 50px;
-    background: blue:
-    margin: 10px;
+
+
+
+/* HEADER */
+header {
+    display: flex;
+    background-color: rgb(36, 45, 53);
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* firstImage */
+.vayne1 {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+/* PREFACE */
+.preface {
+}
+.preface inner-column {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* whenToPick */
+
+
+/* botlaneMatchupSynergy */
+
+
+/* summonerSpells */
+
+
+/* primaryRunes */
+
+
+/* secondaryRunes */
+
+
+/* Skin */
+
+
+/* Items */
+
+
+/* vayneMechanics */
+
+
+
+/* TYPOGRAPHY */
+header {
+    font-size:48px;
+    font-weight: bolder;
+}
+.loud-voice {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 30px;
+}
+.calm-voice {
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+}
+a {
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+
+
+
+/* MEDIA */
+.responsive {
+    width: 65vw;
+    height: auto;
+}
+
+
+
+/* DEVSTYLES */
+inner-column {
+    border: 4px solid red;
+}
+section {
+    border: 4px solid lightcoral;
 }

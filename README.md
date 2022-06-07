@@ -1,3 +1,2 @@
 # lolguides
-This project is to create guides for champions in League of Legends using HTML and CSS, and later on JS
-First guide will be Vayne
+The goal for this project is to create a responsive landing page to host guides, and a responsive Vayne guide.
