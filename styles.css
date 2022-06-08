@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body {
+    display: block;
     background-color: rgb(55, 68, 80);
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace
@@ -19,6 +20,9 @@ section {
     justify-content: center;
     height: auto;
 }
+main {
+    display: block;
+}
 
 
 
@@ -26,9 +30,15 @@ section {
 header {
     display: flex;
     background-color: rgb(36, 45, 53);
-    height: 10vh;
+    height: 20vh;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+header h1 {
+    text-align: center;
+    width: 75vw;
+    height: auto;
 }
 
 
@@ -50,6 +60,9 @@ header {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+}
+.preface .calm-voice {
+    width: 75vw;
 }
 
 
