@@ -77,11 +77,13 @@ header h1 {
     padding: 15px;
 }
 
-/* botlaneMatchupSynergy */
-
 
 /* summonerSpells */
-
+.flashFlexbox, .healFlexbox, .exhaustFlexbox, .ghostFlexbox, .cleanseFlexbox {
+    display: flex;
+    align-items: center;
+}
+    
 
 /* primaryRunes */
 
@@ -131,7 +133,11 @@ ul.list {
     width: 65vw;
     height: auto;
 }
-
+.responsiveIcon {
+    width: 7vw;
+    height: auto;
+    padding: 20px;
+}
 
 
 /* DEVSTYLES */
