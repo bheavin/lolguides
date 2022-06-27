@@ -134,6 +134,7 @@ ul.list {
     height: auto;
 }
 .responsiveIcon {
+    min-width: 7vw;
     width: 7vw;
     height: auto;
     padding: 20px;
