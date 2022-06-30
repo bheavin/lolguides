@@ -80,8 +80,11 @@ header h1 {
 
 /* summonerSpells */
 .flashFlexbox, .healFlexbox, .exhaustFlexbox, .ghostFlexbox, .cleanseFlexbox {
+    min-width: auto;
     display: flex;
     align-items: center;
+    flex-basis: auto;
+    flex-shrink: 1;
 }
     
 
@@ -134,10 +137,14 @@ ul.list {
     height: auto;
 }
 .responsiveIcon {
-    min-width: 7vw;
-    width: 7vw;
-    height: auto;
+    min-width: auto;
+    width: 10%;
     padding: 20px;
+    flex-shrink: 1 0 auto;
+}
+img {
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -147,4 +154,7 @@ inner-column {
 }
 section {
     border: 4px solid lightcoral;
+}
+.flashFlexbox, .healFlexbox, .exhaustFlexbox, .ghostFlexbox, .cleanseFlexbox {
+    border: 2px solid green;
 }
